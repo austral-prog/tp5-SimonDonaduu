@@ -1,4 +1,8 @@
 # Replace the "ANSWER HERE" for your answer
 
 def number_to_month(month):
-    return "ANSWER HERE" # Remove this line and implement
+    meses = ["enero", "febrero", "marzo", "mayo", "abril", "junio", "julio" ,"agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+    if 1<= month<= 12:
+        return meses [month-1]
+    else:
+        return "error"
