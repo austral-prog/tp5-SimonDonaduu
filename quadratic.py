@@ -8,9 +8,9 @@ def roots(a, b, c):
     r1 = (-b + discriminate) / (2*a)
     r2 = (-b - discriminate) / (2*a)
 
-    if r1.imag == 0 and r2,imag == 0:
+    if r1.imag == 0 and r2.imag == 0:
         r1 = r1.real
-        r2 = r2,real
+        r2 = r2.real
         if r1 == r2:
             return f"({r1})"
         else:
